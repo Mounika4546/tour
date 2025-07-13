@@ -14,7 +14,8 @@ const PORT = process.env.PORT || 3000;
 // ✅ Allowed origins for CORS
 const allowedOrigins = [
   "http://localhost:2170",
-  "http://192.168.136.237:2170"
+  "http://192.168.136.237:2170",
+  "https://tour-1-tskd.onrender.com",
 ];
 
 // ✅ CORS options
