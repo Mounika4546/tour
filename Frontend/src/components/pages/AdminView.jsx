@@ -7,7 +7,7 @@ const AdminView = () => {
   useEffect(() => {
     const fetchUsers = async () => {
       try {
-        const response = await axios.get('http://localhost:3000/api/auth/admin');
+        const response = await axios.get('https://tour-znrn.onrender.com/api/auth/admin');
         setUsers(response.data);
       } catch (error) {
         console.error('Error fetching users:', error);
