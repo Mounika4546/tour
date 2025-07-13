@@ -30,7 +30,7 @@ const Tours = () => {
           >
             <div className="relative">
               <img
-                src={tourData.imgSrc}
+                src={tour.imgSrc}
                 alt={`Tour ${index + 1}`}
                 className="w-full h-40 object-cover"
               />
