@@ -29,7 +29,7 @@ const BookTour = () => {
     }
   
     try {
-      const res = await fetch('http://localhost:2169/api/auth/book', {
+      const res = await fetch('https://tour-znrn.onrender.com/api/auth/book', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
