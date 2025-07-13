@@ -20,7 +20,7 @@ const Register = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch('http://localhost:2169/api/auth/register', {
+      const response = await fetch('https://tour-znrn.onrender.com/api/auth/register', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
